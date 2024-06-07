@@ -1,0 +1,238 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header li {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    text-align: center;
+
+    justify-content: flex-end;
+    color: white;
+    font-size: x-small;
+    margin-left: 250px;
+}
+
+nav {
+    display: inline;
+
+
+}
+
+nav p {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.header-top {
+    background-color: rgba(0, 0, 0, .8);
+    font-family: Arial, sans-serif;
+
+
+}
+
+.center {
+
+    color: white;
+
+    text-align: center;
+    padding: 200px;
+    font-weight: 50;
+    background-color: rgba(0, 0, 0, .8);
+    font-family: Arial, sans-serif;
+
+
+}
+.content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.content div{
+  height:600px;
+  width:500px;
+  padding: 40px;
+ 
+}
+.content image{
+   position:relative;
+   padding-left: 100px;
+   margin: 40px;
+   
+ 
+
+}
+
+
+
+
+
+.secondpage {
+    display: flex;
+    background-color: white;
+}
+
+.secondpage div {
+    height: 300px;
+    width: 600px;
+}
+
+.paragraph {
+    width: 400px;
+
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
+
+.wikipedia {
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+   
+    border-radius: 5px;
+    font-size: larger;
+    color: black;
+    border: none;
+
+
+}
+
+.youtube {
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+   
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    border: none;
+}
+
+
+
+.amazon {
+
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+   
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    border: none;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+
+
+
+}
+
+.quotes {
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    height: 70px;
+    width: 100%;
+    
+   
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+
+.awards {
+    text-align: center;
+}
+
+.container-2 {
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.container-2 div {
+    border: 0.5px solid lightgrey;
+   
+    width: 300px;
+    justify-content: center;
+    padding: 20px;
+   
+
+    border-radius: 2px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}
+
+.footer div {
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+   
+    
+}
+.footer-section{
+    padding: 20px;
+}
+@media only screen and (max-width: 600px){
+    .container-2{
+    display: flex;
+    text-align: center;
+    flex-direction:row;
+   
+    justify-content: center;
+    }
+    .container-3{
+        flex-direction: column;
+        margin:20px;
+        padding: 20px;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .content{
+        flex-direction: column;
+        
+    }
+    .content div{
+        height:600px;
+        width:300px;
+        padding: 40px;
+       
+      }
+      .container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+
+}
+
